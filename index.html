@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<head>
+    <title>Enciclopedia de Etiquetas HTML</title>
+
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f5f7fa;
+        color: #333;
+        margin: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px auto;
+        max-width: 800px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        background: #fff;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    table th {
+        background: #3498db;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    table td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+
+    <h1>Etiquetas HTML</h1>
+    <table border="1" cellpadding="1" cellspacing="0">
+        <tr>
+            <th>#</th>
+            <th>Etiqueta</th>
+            <th>Descripción</th>
+            <th>Ejemplo de uso</th>
+            <th>Extras</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>&lt;table&gt;</td>
+            <td>Crea una tabla como esta que vemos</td>
+            <td>&lt;table&gt;...&lt;/table&gt;</td>
+            <td>Usa &lt;tr&gt;, &lt;th&gt;, &lt;td&gt;</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>&lt;h1&gt;...&lt;h6&gt;</td>
+            <td>Titulo en diferentes niveles</td>
+            <td>&lt;h2&gt;Subtítulo&lt;/h2&gt;</td>
+            <td>SEO importante</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>&lt;a&gt;</td>
+            <td>Define un hipervínculo</td>
+            <td>&lt;a href="https://ejemplo.com" target="_blank"&gt;Ir&lt;/a&gt;</td>
+            <td>Atributos: href, target, rel</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>&lt;meta&gt;</td>
+            <td>Define metadatos</td>
+            <td>&lt;meta charset="UTF-8"&gt;</td>
+            <td>Muy usado para SEO</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>&lt;body&gt;</td>
+            <td>Contenido visible</td>
+            <td>&lt;body&gt;&lt;p&gt;Hola&lt;/p&gt;&lt;/body&gt;</td>
+            <td>Todo lo que se muestra en la página</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>&lt;ul&gt;</td>
+            <td>Lista no ordenada</td>
+            <td>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</td>
+            <td>Se representa con viñetas</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>&lt;form&gt;</td>
+            <td>Formulario</td>
+            <td>&lt;form action="/" method="post"&gt;...&lt;/form&gt;</td>
+            <td>Usa inputs, select, textarea</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>&lt;span&gt;</td>
+            <td>Contenedor en línea</td>
+            <td>&lt;p&gt;Texto &lt;span style="color:red"&gt;rojo&lt;/span&gt;&lt;/p&gt;</td>
+            <td>Útil para aplicar estilos</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>&lt;footer&gt;</td>
+            <td>Pie de página</td>
+            <td>&lt;footer&gt;© 2025&lt;/footer&gt;</td>
+            <td>Elemento semántico</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>&lt;img&gt;</td>
+            <td>Inserta una imagen</td>
+            <td>&lt;img src="foto.jpg" alt="Foto"&gt;</td>
+            <td>Atributos: src, alt, width, height</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>&lt;nav&gt;</td>
+            <td>Sección de navegación</td>
+            <td>&lt;nav&gt;&lt;a href="#"&gt;Inicio&lt;/a&gt;&lt;/nav&gt;</td>
+            <td>Usado para menús</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>&lt;video&gt;</td>
+            <td>Inserta un video</td>
+            <td>&lt;video controls&gt;&lt;source src="video.mp4" type="video/mp4"&gt;&lt;/video&gt;</td>
+            <td>Soporta subtítulos</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>&lt;button&gt;</td>
+            <td>Botón interactivo</td>
+            <td>&lt;button type="submit"&gt;Enviar&lt;/button&gt;</td>
+            <td>Tipos: button, submit, reset</td>
+        </tr>
+        <tr>
+            <td>14</td>
+            <td>&lt;title&gt;</td>
+            <td>Título de la página</td>
+            <td>&lt;title&gt;Mi Web&lt;/title&gt;</td>
+            <td>Aparece en la pestaña del navegador</td>
+        </tr>
+        <tr>
+            <td>15</td>
+            <td>&lt;input&gt;</td>
+            <td>Campo de formulario</td>
+            <td>&lt;input type="text" name="nombre"&gt;</td>
+            <td>Tipos: text, password, email...</td>
+        </tr>
+        <tr>
+            <td>16</td>
+            <td>&lt;section&gt;</td>
+            <td>Sección de contenido</td>
+            <td>&lt;section&gt;&lt;h2&gt;Tema&lt;/h2&gt;&lt;/section&gt;</td>
+            <td>Elemento semántico</td>
+        </tr>
+        <tr>
+            <td>17</td>
+            <td>&lt;div&gt;</td>
+            <td>Contenedor genérico</td>
+            <td>&lt;div class="caja"&gt;Contenido&lt;/div&gt;</td>
+            <td>Muy usado para maquetación</td>
+        </tr>
+        <tr>
+            <td>18</td>
+            <td>&lt;head&gt;</td>
+            <td>Encabezado de página o sección</td>
+            <td>&lt;head&gt;&lt;h1&gt;Inicio&lt;/h1&gt;&lt;/head&gt;</td>
+            <td>Elemento semántico</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>&lt;strong&gt;</td>
+            <td>Texto importante</td>
+            <td>&lt;p&gt;Esto es &lt;strong&gt;clave&lt;/strong&gt;&lt;/p&gt;</td>
+            <td>Diferente de &lt;b&gt; (semántica)</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>&lt;ol&gt;</td>
+            <td>Lista ordenada</td>
+            <td>&lt;ol&gt;&lt;li&gt;Uno&lt;/li&gt;&lt;/ol&gt;</td>
+            <td>Se numera automáticamente</td>
+        </tr>
+                <tr>
+            <td>21</td>
+            <td>&lt;article&gt;</td>
+            <td>Contenido independiente y autónomo</td>
+            <td>&lt;article&gt;&lt;h2&gt;Noticia&lt;/h2&gt;&lt;/article&gt;</td>
+            <td>Elemento semántico</td>
+        </tr>
+        <tr>
+            <td>22</td>
+            <td>&lt;aside&gt;</td>
+            <td>Contenido lateral o secundario</td>
+            <td>&lt;aside&gt;Publicidad&lt;/aside&gt;</td>
+            <td>Usado para barras laterales</td>
+        </tr>
+        <tr>
+            <td>23</td>
+            <td>&lt;br&gt;</td>
+            <td>Salto de línea</td>
+            <td>Línea 1&lt;br&gt;Línea 2</td>
+            <td>No necesita etiqueta de cierre</td>
+        </tr>
+        <tr>
+            <td>24</td>
+            <td>&lt;hr&gt;</td>
+            <td>Línea divisoria horizontal</td>
+            <td>&lt;hr&gt;</td>
+            <td>Separador visual</td>
+        </tr>
+        <tr>
+            <td>25</td>
+            <td>&lt;iframe&gt;</td>
+            <td>Incrusta otra página</td>
+            <td>&lt;iframe src="pagina.html"&gt;&lt;/iframe&gt;</td>
+            <td>Usado para mapas o videos externos</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>&lt;audio&gt;</td>
+            <td>Reproduce audio</td>
+            <td>&lt;audio controls&gt;&lt;source src="sonido.mp3" type="audio/mpeg"&gt;&lt;/audio&gt;</td>
+            <td>Soporta varios formatos</td>
+        </tr>
+        <tr>
+            <td>27</td>
+            <td>&lt;canvas&gt;</td>
+            <td>Área de dibujo dinámico</td>
+            <td>&lt;canvas id="miCanvas"&gt;&lt;/canvas&gt;</td>
+            <td>Manipulable con JavaScript</td>
+        </tr>
+        <tr>
+            <td>28</td>
+            <td>&lt;svg&gt;</td>
+            <td>Gráficos vectoriales escalables</td>
+            <td>&lt;svg&gt;&lt;circle cx="50" cy="50" r="40"/&gt;&lt;/svg&gt;</td>
+            <td>Escalable sin perder calidad</td>
+        </tr>
+        <tr>
+            <td>29</td>
+            <td>&lt;abbr&gt;</td>
+            <td>Abreviatura</td>
+            <td>&lt;abbr title="Cascading Style Sheets"&gt;CSS&lt;/abbr&gt;</td>
+            <td>Muestra tooltip al pasar el mouse</td>
+        </tr>
+        <tr>
+            <td>30</td>
+            <td>&lt;cite&gt;</td>
+            <td>Cita de una obra</td>
+            <td>&lt;cite&gt;Don Quijote&lt;/cite&gt;</td>
+            <td>Generalmente en cursiva</td>
+        </tr>
+        <tr>
+            <td>31</td>
+            <td>&lt;mark&gt;</td>
+            <td>Texto resaltado</td>
+            <td>&lt;mark&gt;Importante&lt;/mark&gt;</td>
+            <td>Por defecto se ve amarillo</td>
+        </tr>
+        <tr>
+            <td>32</td>
+            <td>&lt;code&gt;</td>
+            <td>Muestra código</td>
+            <td>&lt;code&gt;console.log("Hola")&lt;/code&gt;</td>
+            <td>Fuente monoespaciada</td>
+        </tr>
+        <tr>
+            <td>33</td>
+            <td>&lt;pre&gt;</td>
+            <td>Texto preformateado</td>
+            <td>&lt;pre&gt;Linea 1
+Linea 2&lt;/pre&gt;</td>
+            <td>Conserva saltos y espacios</td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>&lt;blockquote&gt;</td>
+            <td>Cita en bloque</td>
+            <td>&lt;blockquote&gt;Texto citado&lt;/blockquote&gt;</td>
+            <td>Generalmente con sangría</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>&lt;q&gt;</td>
+            <td>Cita en línea</td>
+            <td>&lt;q&gt;Frase célebre&lt;/q&gt;</td>
+            <td>Añade comillas automáticamente</td>
+        </tr>
+        <tr>
+            <td>36</td>
+            <td>&lt;sup&gt;</td>
+            <td>Superíndice</td>
+            <td>H&lt;sup&gt;2&lt;/sup&gt;O</td>
+            <td>Usado en fórmulas</td>
+        </tr>
+        <tr>
+            <td>37</td>
+            <td>&lt;sub&gt;</td>
+            <td>Subíndice</td>
+            <td>CO&lt;sub&gt;2&lt;/sub&gt;</td>
+            <td>Usado en química y matemáticas</td>
+        </tr>
+        <tr>
+            <td>38</td>
+            <td>&lt;details&gt;</td>
+            <td>Sección desplegable</td>
+            <td>&lt;details&gt;&lt;summary&gt;Ver más&lt;/summary&gt;Texto oculto&lt;/details&gt;</td>
+            <td>Interactividad sin JS</td>
+        </tr>
+        <tr>
+            <td>39</td>
+            <td>&lt;summary&gt;</td>
+            <td>Título del &lt;details&gt;</td>
+            <td>&lt;summary&gt;Información&lt;/summary&gt;</td>
+            <td>Sirve como encabezado</td>
+        </tr>
+        <tr>
+            <td>40</td>
+            <td>&lt;progress&gt;</td>
+            <td>Barra de progreso</td>
+            <td>&lt;progress value="60" max="100"&gt;&lt;/progress&gt;</td>
+            <td>Indica porcentaje completado</td>
+        </tr>
+                <tr>
+            <td>41</td>
+            <td>&lt;time&gt;</td>
+            <td>Representa una fecha u hora</td>
+            <td>&lt;time datetime="2025-09-13"&gt;13 de septiembre 2025&lt;/time&gt;</td>
+            <td>Puede usarse en microdatos</td>
+        </tr>
+        <tr>
+            <td>42</td>
+            <td>&lt;address&gt;</td>
+            <td>Información de contacto</td>
+            <td>&lt;address&gt;contacto@ejemplo.com&lt;/address&gt;</td>
+            <td>Elemento semántico</td>
+        </tr>
+        <tr>
+            <td>43</td>
+            <td>&lt;label&gt;</td>
+            <td>Etiqueta para un control de formulario</td>
+            <td>&lt;label for="nombre"&gt;Nombre:&lt;/label&gt;</td>
+            <td>Se asocia con &lt;input&gt;</td>
+        </tr>
+        <tr>
+            <td>44</td>
+            <td>&lt;textarea&gt;</td>
+            <td>Campo de texto multilínea</td>
+            <td>&lt;textarea rows="4" cols="30"&gt;&lt;/textarea&gt;</td>
+            <td>Usado en formularios</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>&lt;select&gt;</td>
+            <td>Lista desplegable</td>
+            <td>&lt;select&gt;&lt;option&gt;Opción&lt;/option&gt;&lt;/select&gt;</td>
+            <td>Usa &lt;option&gt; dentro</td>
+        </tr>
+        <tr>
+            <td>46</td>
+            <td>&lt;option&gt;</td>
+            <td>Elemento de una lista desplegable</td>
+            <td>&lt;option value="1"&gt;Uno&lt;/option&gt;</td>
+            <td>Se coloca dentro de &lt;select&gt;</td>
+        </tr>
+        <tr>
+            <td>47</td>
+            <td>&lt;optgroup&gt;</td>
+            <td>Agrupa opciones en un select</td>
+            <td>&lt;optgroup label="Grupo 1"&gt;&lt;option&gt;Opción&lt;/option&gt;&lt;/optgroup&gt;</td>
+            <td>Mejora accesibilidad</td>
+        </tr>
+        <tr>
+            <td>48</td>
+            <td>&lt;fieldset&gt;</td>
+            <td>Agrupa controles en un formulario</td>
+            <td>&lt;fieldset&gt;&lt;legend&gt;Datos&lt;/legend&gt;&lt;/fieldset&gt;</td>
+            <td>Visualmente añade un recuadro</td>
+        </tr>
+        <tr>
+            <td>49</td>
+            <td>&lt;legend&gt;</td>
+            <td>Título de un &lt;fieldset&gt;</td>
+            <td>&lt;legend&gt;Información Personal&lt;/legend&gt;</td>
+            <td>Asociado a formularios</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>&lt;datalist&gt;</td>
+            <td>Lista de sugerencias para inputs</td>
+            <td>&lt;input list="frutas"&gt;&lt;datalist id="frutas"&gt;&lt;option value="Manzana"&gt;&lt;/datalist&gt;</td>
+            <td>Funciona con &lt;input list&gt;</td>
+        </tr>
+        <tr>
+            <td>51</td>
+            <td>&lt;output&gt;</td>
+            <td>Resultado de un cálculo</td>
+            <td>&lt;output name="resultado"&gt;42&lt;/output&gt;</td>
+            <td>Usado en formularios dinámicos</td>
+        </tr>
+        <tr>
+            <td>52</td>
+            <td>&lt;main&gt;</td>
+            <td>Contenido principal del documento</td>
+            <td>&lt;main&gt;&lt;h1&gt;Blog&lt;/h1&gt;&lt;/main&gt;</td>
+            <td>Elemento semántico</td>
+        </tr>
+        <tr>
+            <td>53</td>
+            <td>&lt;figure&gt;</td>
+            <td>Figura con su descripción</td>
+            <td>&lt;figure&gt;&lt;img src="foto.jpg"&gt;&lt;figcaption&gt;Descripción&lt;/figcaption&gt;&lt;/figure&gt;</td>
+            <td>Usado con imágenes</td>
+        </tr>
+        <tr>
+            <td>54</td>
+            <td>&lt;figcaption&gt;</td>
+            <td>Título o descripción de una figura</td>
+            <td>&lt;figcaption&gt;Paisaje al atardecer&lt;/figcaption&gt;</td>
+            <td>Se coloca dentro de &lt;figure&gt;</td>
+        </tr>
+        <tr>
+            <td>55</td>
+            <td>&lt;small&gt;</td>
+            <td>Texto en tamaño reducido</td>
+            <td>&lt;small&gt;Nota al pie&lt;/small&gt;</td>
+            <td>Usado en disclaimers</td>
+        </tr>
+        <tr>
+            <td>56</td>
+            <td>&lt;del&gt;</td>
+            <td>Texto eliminado</td>
+            <td>&lt;del&gt;Precio viejo&lt;/del&gt;</td>
+            <td>Muestra tachado</td>
+        </tr>
+        <tr>
+            <td>57</td>
+            <td>&lt;ins&gt;</td>
+            <td>Texto insertado</td>
+            <td>&lt;ins&gt;Precio nuevo&lt;/ins&gt;</td>
+            <td>Suele subrayarse</td>
+        </tr>
+        <tr>
+            <td>58</td>
+            <td>&lt;kbd&gt;</td>
+            <td>Entrada de teclado</td>
+            <td>&lt;kbd&gt;Ctrl + C&lt;/kbd&gt;</td>
+            <td>Fuente monoespaciada</td>
+        </tr>
+        <tr>
+            <td>59</td>
+            <td>&lt;samp&gt;</td>
+            <td>Salida de un programa</td>
+            <td>&lt;samp&gt;Error 404&lt;/samp&gt;</td>
+            <td>Simula respuesta de consola</td>
+        </tr>
+        <tr>
+            <td>60</td>
+            <td>&lt;var&gt;</td>
+            <td>Representa una variable</td>
+            <td>&lt;var&gt;x&lt;/var&gt; = 5</td>
+            <td>Usado en matemáticas y programación</td>
+        </tr>
+        <tr>
+            <td>61</td>
+            <td>&lt;em&gt;</td>
+            <td>Texto enfatizado</td>
+            <td>&lt;em&gt;Muy importante&lt;/em&gt;</td>
+            <td>Generalmente en cursiva</td>
+        </tr>
+        <tr>
+            <td>62</td>
+            <td>&lt;i&gt;</td>
+            <td>Texto en cursiva</td>
+            <td>&lt;i&gt;Texto inclinado&lt;/i&gt;</td>
+            <td>Presentacional, no semántico</td>
+        </tr>
+        <tr>
+            <td>63</td>
+            <td>&lt;b&gt;</td>
+            <td>Texto en negrita</td>
+            <td>&lt;b&gt;Resaltado&lt;/b&gt;</td>
+            <td>Presentacional, diferente de &lt;strong&gt;</td>
+        </tr>
+        <tr>
+            <td>64</td>
+            <td>&lt;u&gt;</td>
+            <td>Texto subrayado</td>
+            <td>&lt;u&gt;Subrayado&lt;/u&gt;</td>
+            <td>Uso visual, no semántico</td>
+        </tr>
+        <tr>
+            <td>65</td>
+            <td>&lt;s&gt;</td>
+            <td>Texto tachado</td>
+            <td>&lt;s&gt;Texto obsoleto&lt;/s&gt;</td>
+            <td>No confundir con &lt;del&gt;</td>
+        </tr>
+        <tr>
+            <td>66</td>
+            <td>&lt;meter&gt;</td>
+            <td>Medidor dentro de un rango</td>
+            <td>&lt;meter value="0.7"&gt;70%&lt;/meter&gt;</td>
+            <td>Diferente de &lt;progress&gt;</td>
+        </tr>
+        <tr>
+            <td>67</td>
+            <td>&lt;noscript&gt;</td>
+            <td>Contenido alterno si no hay JS</td>
+            <td>&lt;noscript&gt;Activa JavaScript&lt;/noscript&gt;</td>
+            <td>Soporte para navegadores sin JS</td>
+        </tr>
+        <tr>
+            <td>68</td>
+            <td>&lt;script&gt;</td>
+            <td>Incrusta o enlaza JavaScript</td>
+            <td>&lt;script src="app.js"&gt;&lt;/script&gt;</td>
+            <td>Atributos: async, defer</td>
+        </tr>
+        <tr>
+            <td>69</td>
+            <td>&lt;style&gt;</td>
+            <td>Define estilos CSS internos</td>
+            <td>&lt;style&gt;body{color:red;}&lt;/style&gt;</td>
+            <td>Se coloca en &lt;head&gt;</td>
+        </tr>
+        <tr>
+            <td>70</td>
+            <td>&lt;link&gt;</td>
+            <td>Vincula recursos externos</td>
+            <td>&lt;link rel="stylesheet" href="estilos.css"&gt;</td>
+            <td>Usado para CSS y favicons</td>
+        </tr>
+        <tr>
+            <td>71</td>
+            <td>&lt;base&gt;</td>
+            <td>Define URL base de la página</td>
+            <td>&lt;base href="https://ejemplo.com/"&gt;</td>
+            <td>Afecta enlaces relativos</td>
+        </tr>
+        <tr>
+            <td>72</td>
+            <td>&lt;map&gt;</td>
+            <td>Mapa de imagen</td>
+            <td>&lt;map name="mapa"&gt;&lt;area coords="0,0,50,50" href="#"&gt;&lt;/map&gt;</td>
+            <td>Usado con &lt;img usemap&gt;</td>
+        </tr>
+        <tr>
+            <td>73</td>
+            <td>&lt;area&gt;</td>
+            <td>Zona interactiva en un mapa</td>
+            <td>&lt;area shape="rect" coords="34,44,270,350" href="#"&gt;</td>
+            <td>Depende de &lt;map&gt;</td>
+        </tr>
+        <tr>
+            <td>74</td>
+            <td>&lt;object&gt;</td>
+            <td>Inserta un recurso externo</td>
+            <td>&lt;object data="archivo.pdf" type="application/pdf"&gt;&lt;/object&gt;</td>
+            <td>Alternativa a &lt;embed&gt;</td>
+        </tr>
+        <tr>
+            <td>75</td>
+            <td>&lt;embed&gt;</td>
+            <td>Contenido incrustado</td>
+            <td>&lt;embed src="animacion.swf"&gt;</td>
+            <td>Usado para multimedia</td>
+        </tr>
+        <tr>
+            <td>76</td>
+            <td>&lt;param&gt;</td>
+            <td>Parámetro para &lt;object&gt;</td>
+            <td>&lt;param name="autoplay" value="true"&gt;</td>
+            <td>Define configuración</td>
+        </tr>
+        <tr>
+            <td>77</td>
+            <td>&lt;track&gt;</td>
+            <td>Subtítulos en video/audio</td>
+            <td>&lt;track src="subs.vtt" kind="subtitles" srclang="es" label="Español"&gt;</td>
+            <td>Funciona dentro de &lt;video&gt; y &lt;audio&gt;</td>
+        </tr>
+        <tr>
+            <td>78</td>
+            <td>&lt;picture&gt;</td>
+            <td>Contenedor de imágenes adaptables</td>
+            <td>&lt;picture&gt;&lt;source srcset="img.webp" type="image/webp"&gt;&lt;img src="img.jpg"&gt;&lt;/picture&gt;</td>
+            <td>Optimiza para distintos dispositivos</td>
+        </tr>
+        <tr>
+            <td>79</td>
+            <td>&lt;source&gt;</td>
+            <td>Fuente alternativa para multimedia</td>
+            <td>&lt;source src="video.mp4" type="video/mp4"&gt;</td>
+            <td>Usado en &lt;video&gt;, &lt;audio&gt;, &lt;picture&gt;</td>
+        </tr>
+        <tr>
+            <td>80</td>
+            <td>&lt;bdi&gt;</td>
+            <td>Aísla texto con dirección de escritura</td>
+            <td>&lt;bdi&gt;عربي&lt;/bdi&gt;</td>
+            <td>Útil en idiomas RTL</td>
+        </tr>
+        <tr>
+            <td>81</td>
+            <td>&lt;bdo&gt;</td>
+            <td>Sobrescribe la dirección del texto</td>
+            <td>&lt;bdo dir="rtl"&gt;Texto invertido&lt;/bdo&gt;</td>
+            <td>Soporta valores ltr y rtl</td>
+        </tr>
+        <tr>
+            <td>82</td>
+            <td>&lt;wbr&gt;</td>
+            <td>Posible salto de línea</td>
+            <td>supercalifragilistico&lt;wbr&gt;espialidoso</td>
+            <td>Mejora la legibilidad</td>
+        </tr>
+        <tr>
+            <td>83</td>
+            <td>&lt;template&gt;</td>
+            <td>Fragmento de HTML oculto</td>
+            <td>&lt;template id="tpl"&gt;&lt;p&gt;Hola&lt;/p&gt;&lt;/template&gt;</td>
+            <td>Usado con JavaScript</td>
+        </tr>
+        <tr>
+            <td>84</td>
+            <td>&lt;slot&gt;</td>
+            <td>Espacio en Web Components</td>
+            <td>&lt;slot name="contenido"&gt;&lt;/slot&gt;</td>
+            <td>Se rellena dinámicamente</td>
+        </tr>
+        <tr>
+            <td>85</td>
+            <td>&lt;shadow&gt;</td>
+            <td>Parte del Shadow DOM</td>
+            <td>&lt;shadow&gt;&lt;/shadow&gt;</td>
+            <td>Elemento experimental</td>
+        </tr>
+        <tr>
+            <td>86</td>
+            <td>&lt;dialog&gt;</td>
+            <td>Ventana emergente modal</td>
+            <td>&lt;dialog open&gt;Hola&lt;/dialog&gt;</td>
+            <td>Soporta métodos show() y close()</td>
+        </tr>
+        <tr>
+            <td>87</td>
+            <td>&lt;menu&gt;</td>
+            <td>Lista de comandos o menú</td>
+            <td>&lt;menu&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/menu&gt;</td>
+            <td>Actualmente en desuso</td>
+        </tr>
+        <tr>
+            <td>88</td>
+            <td>&lt;menuitem&gt;</td>
+            <td>Elemento de menú contextual</td>
+            <td>&lt;menuitem label="Guardar"&gt;</td>
+            <td>En desuso en navegadores modernos</td>
+        </tr>
+        <tr>
+            <td>89</td>
+            <td>&lt;center&gt;</td>
+            <td>Centra contenido</td>
+            <td>&lt;center&gt;Texto centrado&lt;/center&gt;</td>
+            <td>Obsoleto, usar CSS</td>
+        </tr>
+        <tr>
+            <td>90</td>
+            <td>&lt;font&gt;</td>
+            <td>Define fuente, tamaño y color</td>
+            <td>&lt;font color="red"&gt;Rojo&lt;/font&gt;</td>
+            <td>Obsoleto, reemplazado por CSS</td>
+        </tr>
+        <tr>
+            <td>91</td>
+            <td>&lt;marquee&gt;</td>
+            <td>Texto en movimiento</td>
+            <td>&lt;marquee&gt;Hola&lt;/marquee&gt;</td>
+            <td>No estándar, no recomendado</td>
+        </tr>
+        <tr>
+            <td>92</td>
+            <td>&lt;big&gt;</td>
+            <td>Texto más grande</td>
+            <td>&lt;big&gt;Grande&lt;/big&gt;</td>
+            <td>Obsoleto, usar CSS</td>
+        </tr>
+        <tr>
+            <td>93</td>
+            <td>&lt;acronym&gt;</td>
+            <td>Define un acrónimo</td>
+            <td>&lt;acronym title="Hypertext Markup Language"&gt;HTML&lt;/acronym&gt;</td>
+            <td>Obsoleto, usar &lt;abbr&gt;</td>
+        </tr>
+        <tr>
+            <td>94</td>
+            <td>&lt;strike&gt;</td>
+            <td>Texto tachado</td>
+            <td>&lt;strike&gt;Tachado&lt;/strike&gt;</td>
+            <td>Obsoleto, usar &lt;s&gt; o &lt;del&gt;</td>
+        </tr>
+        <tr>
+            <td>95</td>
+            <td>&lt;tt&gt;</td>
+            <td>Texto estilo máquina de escribir</td>
+            <td>&lt;tt&gt;Monoespaciado&lt;/tt&gt;</td>
+            <td>Obsoleto, usar CSS</td>
+        </tr>
+        <tr>
+            <td>96</td>
+            <td>&lt;plaintext&gt;</td>
+            <td>Muestra todo como texto plano</td>
+            <td>&lt;plaintext&gt;Ignora HTML&lt;/plaintext&gt;</td>
+            <td>Obsoleto</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>&lt;ruby&gt;</td>
+            <td>Anotación para caracteres asiáticos</td>
+            <td>&lt;ruby&gt;漢&lt;rt&gt;Kan&lt;/rt&gt;&lt;/ruby&gt;</td>
+            <td>Usado en japonés/chino</td>
+        </tr>
+        <tr>
+            <td>98</td>
+            <td>&lt;rt&gt;</td>
+            <td>Texto de anotación ruby</td>
+            <td>&lt;rt&gt;Kan&lt;/rt&gt;</td>
+            <td>Va junto a &lt;ruby&gt;</td>
+        </tr>
+        <tr>
+            <td>99</td>
+            <td>&lt;rp&gt;</td>
+            <td>Texto alternativo para ruby</td>
+            <td>&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;Kan&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;</td>
+            <td>Muestra paréntesis si no hay soporte</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>&lt;rb&gt;</td>
+            <td>Base de anotación ruby</td>
+            <td>&lt;rb&gt;漢&lt;/rb&gt;</td>
+            <td>Usado en anotaciones asiáticas</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>&lt;isindex&gt;</td>
+            <td>Campo de entrada único</td>
+            <td>&lt;isindex prompt="Buscar:"&gt;</td>
+            <td>Obsoleto, reemplazado por &lt;input&gt;</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>&lt;frame&gt;</td>
+            <td>Define un marco en frameset</td>
+            <td>&lt;frame src="pagina.html"&gt;</td>
+            <td>Obsoleto en HTML5</td>
+        </tr> 
+</body>
+</html>
